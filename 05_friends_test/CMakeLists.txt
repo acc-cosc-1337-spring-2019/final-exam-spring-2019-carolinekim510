@@ -1,0 +1,2 @@
+add_executable(05_friends_test "friends_test.cpp")
+target_link_libraries(05_friends_test 05_friends_library)

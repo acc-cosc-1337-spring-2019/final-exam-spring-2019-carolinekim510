@@ -1,0 +1,2 @@
+add_executable(08_abstract_class_test "abstract_class_test.cpp")
+target_link_libraries(08_abstract_class_test 08_abstract_class_library)

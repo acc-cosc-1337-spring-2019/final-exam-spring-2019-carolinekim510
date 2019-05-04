@@ -1,0 +1,2 @@
+add_executable(04_class_copy "class_copy_test.cpp")
+target_link_libraries(04_class_copy 04_class_copy_library)

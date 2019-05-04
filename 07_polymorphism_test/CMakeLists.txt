@@ -1,0 +1,2 @@
+add_executable(07_polymorphism_test "polymorphism_test.cpp")
+target_link_libraries(07_polymorphism_test 07_polymorphism_library)

@@ -1,0 +1,2 @@
+add_executable(09_recursion_test "recursion_test.cpp")
+target_link_libraries(09_recursion_test 09_recursion_library)

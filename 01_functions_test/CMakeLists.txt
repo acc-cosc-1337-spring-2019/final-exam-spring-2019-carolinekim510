@@ -1,0 +1,2 @@
+add_executable(01_functions_test "functions_test.cpp")
+target_link_libraries(01_functions_test 01_functions_library)

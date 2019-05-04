@@ -3,6 +3,24 @@
 project("cosc1337")
 
 include_directories(inc)
+include_directories(.)
 
-
-
+add_subdirectory(01_functions)
+add_subdirectory(01_functions_test)
+add_subdirectory(02_account)
+add_subdirectory(02_account_test)
+add_subdirectory(03_overload)
+add_subdirectory(04_class_copy)
+add_subdirectory(04_class_copy_test)
+add_subdirectory(05_friends)
+add_subdirectory(05_friends_test)
+add_subdirectory(06_inheritance)
+add_subdirectory(06_inheritance_test)
+add_subdirectory(07_polymorphism)
+add_subdirectory(07_polymorphism_test)
+add_subdirectory(08_abstract_class)
+add_subdirectory(08_abstract_class_test)
+add_subdirectory(09_recursion)
+add_subdirectory(09_recursion_test)
+add_subdirectory(10_templates)
+add_subdirectory(10_templates_test)

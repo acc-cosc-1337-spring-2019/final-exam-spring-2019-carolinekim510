@@ -1,0 +1,2 @@
+add_executable(02_account_test "account_test.cpp")
+target_link_libraries(02_account_test 02_account_library)
