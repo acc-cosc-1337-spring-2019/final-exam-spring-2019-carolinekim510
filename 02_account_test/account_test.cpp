@@ -10,6 +10,14 @@ Create a test case to show that an Account with begin balance 500 has a balance 
 
 
 */
-
+TEST_CASE("Test Account") 
+{
+	Account account(500);
+	REQUIRE(account.get_balance() == 500);
+	account.deposit(25);
+	REQUIRE(account.get_balance() == 525);
+	account.withdraw(50);
+	REQUIRE(account.get_balance() == 475);
+}
 
 
