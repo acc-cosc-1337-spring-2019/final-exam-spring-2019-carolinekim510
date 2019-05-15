@@ -15,6 +15,12 @@ int main()
 		std::cout<<*accounts[i]<<"\n";
 	}
 
+	for (int i = 0; i < 5; ++i) 
+	{
+		delete accounts[i];
+		accounts[i] = nullptr;
+	}
+
 	std::unique_ptr<Account> u_accounts[5];
 
 	for (int i = 1; i < 6; ++i) 
