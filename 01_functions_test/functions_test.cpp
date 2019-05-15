@@ -12,3 +12,15 @@ call the function pass_by_val_ref_ptr with parameter arguments val, ref, and ptr
 		 Assert that local variable ptr is 150.
 
 */
+TEST_CASE("Functions test val ref ptr") 
+{
+	int val = 5;
+	int ref = 10;
+	int* ptr = new int(15);
+
+	pass_by_val_ref_ptr(val, ref, ptr);
+
+	REQUIRE(val == 5);
+	REQUIRE(ref == 100);
+	REQUIRE(*ptr == 150);
+}
