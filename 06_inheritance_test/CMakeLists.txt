@@ -1,2 +1,0 @@
-add_executable(06_inheritance_test "inheritance_test.cpp")
-target_link_libraries(06_inheritance_test 06_inheritance_library)
