@@ -1,4 +1,4 @@
-#include "10_templates/list.h"
+#include "10_templates/rectangle.h"
 
 int main() 
 {
