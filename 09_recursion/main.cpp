@@ -1,6 +1,14 @@
 #include "09_recursion/recursion.h"
+#include <iostream>
+#include <bitset>
 
 int main()
 {
-	return 0;
+	int n = 0;
+	for (int i = 0; i <= 255; i++) 
+	{
+		n = f(i);
+		std::cout << std::bitset<i>(n) << "\n";
+
+	}
 }

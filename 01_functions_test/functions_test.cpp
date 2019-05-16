@@ -23,4 +23,10 @@ TEST_CASE("Functions test val ref ptr")
 	REQUIRE(val == 5);
 	REQUIRE(ref == 100);
 	REQUIRE(*ptr == 150);
+
+	val = 50;
+	pass_by_val_ref_ptr(val, ref, ptr);
+	REQUIRE(val == 50);
+	REQUIRE(ref == 100);
+	REQUIRE(*ptr == 150);
 }
